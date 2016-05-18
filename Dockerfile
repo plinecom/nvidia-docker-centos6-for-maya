@@ -3,15 +3,13 @@ FROM nvidia/cuda:7.5-centos6
 RUN yum update -y
 RUN yum -y groupinstall "X Window System"
 RUN yum install -y tcsh unzip SDL openssh-server wget
-RUN yum install -y libcaca \
-			openal\
+RUN yum install -y \
 			gamin audiofile audiofile-devel e2fsprogs-libs\
 			libXp\
 			libXpm\
 			pciutils\
 			gstreamer-plugins-base\
-			freeglut freeglut-devel\
-			readline-devel\
+			freeglut\
 			redhat-lsb-core\
 			mesa-libGLw
 
