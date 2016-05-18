@@ -8,33 +8,13 @@ RUN rpm -ivh http://li.nux.ro/download/nux/dextop/el6Workstation/x86_64/nux-dext
 RUN cd /etc/yum.repos.d && wget http://pkgrepo.linuxtech.net/el6/release/linuxtech.repo
 RUN yum install -y libcaca \
 			openal\
+			gamin audiofile audiofile-devel e2fsprogs-libs\
 			vlc\
 			libXp\
-			gcc\
-			cmake\
-			libXmu-devel\
-			libXi-devel\
 			freeglut freeglut-devel\
 			gcc-c++\
 			xinetd\
 			readline-devel\
-			gimp\
-			gstreamer-plugins-base-devel\
-			bltk\
-			blt\
-			opencv\
-			qt-devel\
-			boost-devel\
-			python-devel\
-			numpy\
-			scipy\
-			perl-devel\
-			perl-ExtUtils-Embed\
-			perl-ExtUtils-ParseXS\
-			python-setuptools\
-			fio\
-			rpmdevtools\
-			libuuid-devel\
 			redhat-lsb-core\
 			mesa-libGLw
 
