@@ -9,11 +9,11 @@ RUN cd /etc/yum.repos.d && wget http://pkgrepo.linuxtech.net/el6/release/linuxte
 RUN yum install -y libcaca \
 			openal\
 			gamin audiofile audiofile-devel e2fsprogs-libs\
-			vlc\
 			libXp\
+			libXpm\
+			pciutils\
+			gstreamer-plugins-base\
 			freeglut freeglut-devel\
-			gcc-c++\
-			xinetd\
 			readline-devel\
 			redhat-lsb-core\
 			mesa-libGLw
