@@ -9,7 +9,6 @@ RUN yum install -y \
 			libXpm\
 			pciutils\
 			gstreamer-plugins-base\
-			freeglut\
 			redhat-lsb-core\
 			mesa-libGLw
 
