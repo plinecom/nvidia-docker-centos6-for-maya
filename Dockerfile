@@ -7,11 +7,8 @@ RUN yum install -y epel-release
 RUN rpm -ivh http://li.nux.ro/download/nux/dextop/el6Workstation/x86_64/nux-dextop-release-0-2.el6.nux.noarch.rpm
 RUN cd /etc/yum.repos.d && wget http://pkgrepo.linuxtech.net/el6/release/linuxtech.repo
 RUN yum install -y libcaca \
-			libtiger\
 			openal\
-			game-music-emu\
 			vlc\
-			exfat-utils\
 			libXp\
 			gcc\
 			cmake\
@@ -20,25 +17,16 @@ RUN yum install -y libcaca \
 			freeglut freeglut-devel\
 			gcc-c++\
 			xinetd\
-			git\
-			xterm\
-			rpm-build\
 			readline-devel\
-			kernel-devel\
 			gimp\
 			gstreamer-plugins-base-devel\
-			ntfs-3g\
-			tcl\
-			tk\
 			bltk\
 			blt\
-			tsclient\
 			opencv\
 			qt-devel\
 			boost-devel\
 			python-devel\
 			numpy\
-			gcc-gfortran\
 			scipy\
 			perl-devel\
 			perl-ExtUtils-Embed\
@@ -46,7 +34,6 @@ RUN yum install -y libcaca \
 			python-setuptools\
 			fio\
 			rpmdevtools\
-			netcdf\
 			libuuid-devel\
 			redhat-lsb-core\
 			mesa-libGLw
