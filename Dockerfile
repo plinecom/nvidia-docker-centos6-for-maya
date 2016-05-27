@@ -9,7 +9,6 @@ RUN yum install -y \
 			libXpm\
 			pciutils\
 			gstreamer-plugins-base\
-			redhat-lsb-core\
 			mesa-libGLw
 
 ENV DISPLAY :0
