@@ -11,6 +11,6 @@ RUN yum install -y \
 			gstreamer-plugins-base\
 			mesa-libGLw
 
-ENV DISPLAY :0
 ENV LC_ALL en_US.UTF-8
+ENV QT_X11_NO_MITSHM=1
 
